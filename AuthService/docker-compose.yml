@@ -1,0 +1,12 @@
+services:
+  auth:
+    build:
+      dockerfile: dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
+    volumes:
+      - ./private.pem:/app/private.pem

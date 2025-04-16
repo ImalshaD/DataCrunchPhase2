@@ -1,0 +1,12 @@
+{
+  "name": "libs",
+  "version": "1.0.0",
+  "description": "Common Libarires for Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:all": "cd logger && npm install && cd .."
+  },
+  "author": "Imalsha Puranegedara",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@describe/logger",
+  "version": "1.0.5",
+  "description": "Common Logger for this all the services",
+  "main": "src/index.mjs",
+  "scripts": {
+    "publish": "npm version patch && npm publish"
+  },
+  "author": "Imalsha Puranegedara",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^3.17.0"
+  }
+}
