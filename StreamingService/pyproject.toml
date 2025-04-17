@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "datacrunchphasetwostreamingapis"
+name = "streamingservice"
 version = "0.1.0"
-description = "Data Streaming APIs for Data crunch phase 2."
+description = ""
 authors = ["ImalshaD <plid475@gmail.com>"]
 license = "MIT"
 readme = "README.md"
@@ -10,7 +10,6 @@ readme = "README.md"
 python = "^3.10"
 fastapi = "^0.115.12"
 uvicorn = {extras = ["standard"], version = "^0.34.0"}
-
 
 [build-system]
 requires = ["poetry-core"]
